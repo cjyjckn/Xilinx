@@ -1,0 +1,50 @@
+(ExpressProject "my_libs"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\my_libs.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\my_libs.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (my_atmega32( 2)
+    (FullPartName "my_atmega32(2).Normal")
+    (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.OLB")
+    (DeviceIndex "0"))
+  (my_atmega32
+    (FullPartName "my_atmega32.Normal")
+    (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.OLB")
+    (DeviceIndex "0"))
+  (atmega32
+    (FullPartName "atmega32.Normal")
+    (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.OLB")
+    (DeviceIndex "0"))
+  (MPSSessionName "user")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\my_libs.dsn")
+      (Path "Design Resources" ".\my_libs.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\my_libs.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 427"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 25 1665 25 490")
+        (Scroll "0 294")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
